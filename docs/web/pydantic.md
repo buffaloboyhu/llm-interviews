@@ -177,7 +177,9 @@ class Event(BaseModel):
         return self
     # mode='before' 则是接收原始字典，在类型转换前执行
 ```
+
 ---
+
 ## 7. 嵌套模型与复杂结构
 Pydantic 可以轻松处理深层嵌套的数据。
 ```python
@@ -208,7 +210,9 @@ data = {
 emp = Employee.model_validate(data)
 print(emp.company.address.city) # 输出: Beijing
 ```
+
 ---
+
 ## 8. 数据类 (`dataclass`) 与 `TypedDict`
 如果你不想继承 `BaseModel`，Pydantic 也支持标准库的 `dataclass`。
 ```python
@@ -221,7 +225,9 @@ p = Person(name="Alice", age="25") # 自动转换
 print(type(p.age)) # <class 'int'>
 ```
 *注：Pydantic 的 `dataclass` 与标准库 `dataclasses.dataclass` 的区别在于它增加了数据验证功能。*
+
 ---
+
 ## 9. 动态模型创建
 有时你无法在写代码时确定模型的结构（比如从数据库读取表结构动态生成），可以使用 `create_model`。
 ```python
