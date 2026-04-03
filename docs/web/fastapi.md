@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# 📚 FastAPI 完整学习教程（2025 版）
+# FastAPI
 
 > ✅ 适用人群：Python 开发者、后端工程师、全栈工程师
 > 🔧 技术栈：Python 3.9+，FastAPI 0.100+，Pydantic v2，Docker，PostgreSQL，Redis，JWT，Uvicorn
