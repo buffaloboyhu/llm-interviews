@@ -2,8 +2,6 @@
 sidebar_position: 3
 ---
 
-这是一份为你精心准备的 **SQLAlchemy 2.x 系统化学习教程**。
-
 SQLAlchemy 是 Python 中最著名的 ORM（对象关系映射）框架，它允许你使用 Python 类和对象来操作数据库，而无需编写繁琐的 SQL 语句。2.x 版本相比 1.x 版本，在异步支持和类型提示（Type Hinting）上有了巨大的改进。
 
 本教程将带你从环境搭建到核心概念，再到实战代码，循序渐进地掌握它。
